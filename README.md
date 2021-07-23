@@ -4,7 +4,8 @@ this setup allows you to debug PHP inside Docker via ***xdebug3***. tested with 
 
 ## Usage
 
-The Xdebug3 config happens in the php.ini. these directives are updated for xdebug3.
+The Xdebug3 should be configured in the php.ini. these directives are updated for xdebug3.
+see more details of upgrade from xdebug2 [here](https://xdebug.org/docs/upgrade_guide)
 
  A sample `docker-compose.yml` comes along with it so you can get this up and running in one command: `docker-compose up --build -d`.
 
